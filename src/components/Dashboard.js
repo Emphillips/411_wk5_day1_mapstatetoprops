@@ -12,7 +12,7 @@ import {
 const Dashboard = (props) => {
     return (
         <Container maxWidth="lg" className="car-container">
-            <h4>Welcome, {`props.user.username`}</h4>
+            <h4>Welcome, {props.user.username}</h4>
             <Table>
                 <TableHead>
                     <TableRow>
